@@ -53,9 +53,11 @@ EX - 1
 http://facebook.github.io/react-native/docs/getting-started.html
 
 ## Style
-- RN brings in Web styles to native.
-- Layout using flex box.
-- Create a `TextInput` component, when the value changes in the `TextInput` update the `Text` component.
+> RN brings in Web styles to native.
+
+> Layout using flex box.
+
+> Create a `TextInput` component, when the value changes in the `TextInput` update the `Text` component.
 
 EX - 2
 - Make the App's background color `black`
@@ -83,10 +85,13 @@ https://facebook.github.io/react-native/docs/textinput.html
 https://facebook.github.io/react-native/docs/button.html
 
 ## State management
-- React's states are local to the component. In an app, you'd want to have states that are at a level higher than atleast the component.
-- State management systems came into play. We'll be using one such system called MobX.
-- https://github.com/mobxjs/mobx
-- uses `decorators` - `observer`, `observable`, `action`, `computed`
+> React's states are local to the component. In an app, you'd want to have states that are at a level higher than atleast the component.
+
+> State management systems came into play. We'll be using one such system called MobX.
+
+> https://github.com/mobxjs/mobx
+
+> MobX uses `decorators` - `observer`, `observable`, `action`, `computed`
 <img src='https://raw.githubusercontent.com/mobxjs/mobx/master/docs/flow.png'/>
 
 EX - 4
@@ -104,13 +109,15 @@ EX - 6
 - Display `Image` instead of plain text.
 
 ## Routing
-- Adding navigation to the app
-
-https://reactnavigation.org/
+> Adding navigation to the app -  https://reactnavigation.org/
 
 EX - 7
 - Create `Trending` page.
 - Use TabBar to switch between `Home Page` and `Trending Page`.
+- Use `home.png` and `trending.png` as icons in the TabBar.
+
+EX - 8
+- Populate `Trending` page with content from `getTrendingItems`
 
 ## Ref
 https://github.com/vhpoet/react-native-styling-cheat-sheet/blob/master/README.md
