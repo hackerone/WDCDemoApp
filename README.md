@@ -66,7 +66,6 @@ EX - 2
 
 EX - 3
 - Replace the text box with search box.
-- Create a Search Box. 
 - Should have a `TextInput` component, where the user can type keyword.
 - Should have a `Button` which says `Go`
 
@@ -82,6 +81,7 @@ class App extends React.Component {
 ```
 
 https://facebook.github.io/react-native/docs/textinput.html
+
 https://facebook.github.io/react-native/docs/button.html
 
 ## State management
@@ -120,5 +120,5 @@ EX - 8
 - Populate `Trending` page with content from `getTrendingItems`
 
 ## Ref
-https://github.com/vhpoet/react-native-styling-cheat-sheet/blob/master/README.md
-http://jonibologna.com/flexbox-cheatsheet/
+- https://github.com/vhpoet/react-native-styling-cheat-sheet/blob/master/README.md
+- http://jonibologna.com/flexbox-cheatsheet/
