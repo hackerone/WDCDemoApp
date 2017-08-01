@@ -82,7 +82,6 @@ EX - 2
 - Text should be `white`
 - Place the text box to the top. The text must be left aligned.
 
-
 EX - 3
 - Replace the text box with search box.
 - Should have a `TextInput` component, where the user can type keyword.
@@ -119,6 +118,7 @@ EX - 4
 - The text in the middle of the screen should update as the user types.
 - Replace local state with MobX store.
 - https://github.com/mobxjs/mobx
+- https://raw.githubusercontent.com/mobxjs/mobx/master/docs/flow.png
 
 EX - 5
 - Pressing `GO` button should fetch Giphy results for the keyword entered.
@@ -143,6 +143,12 @@ EX - 7
 EX - 8
 - Populate `Trending` page with content from `getTrendingItems`
 
-## Ref
+## References
 - https://github.com/vhpoet/react-native-styling-cheat-sheet/blob/master/README.md
 - http://jonibologna.com/flexbox-cheatsheet/
+- https://facebook.github.io/react-native/blog/2017/03/13/introducing-create-react-native-app.html
+
+- https://reactnavigation.org/
+- https://github.com/mobxjs/mobx
+- https://github.com/mobxjs/mobx-react
+- https://expo.io/
