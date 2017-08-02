@@ -64,13 +64,15 @@ EX - 1
 React Native provides basic UI components which are required to build common UI.
 They are comparable to the DOM elements available in the browser.
 -->
-- `<div>` >  `<View>`
-- `<p>, <h1>, <h2> ..` > `<Text>`
-- `<img/>` > `<Image>`
-- `<input/>` > `<TextInput>`
-- `<button>, <a>` > `<Button>` or `<TouchableHighlight>`
+Web | Native
+--- | ---
+`<div>` |  [`<View>`](https://facebook.github.io/react-native/docs/view.html)
+`<p>, <h1>, <h2> ..` | [`<Text>`](https://facebook.github.io/react-native/docs/text.html)
+`<img/>` | [`<Image>`](https://facebook.github.io/react-native/docs/image.html)
+`<input/>` | [`<TextInput>`](https://facebook.github.io/react-native/docs/text-input.html)
+`<button>, <a>` | [`<Button>`](https://facebook.github.io/react-native/docs/button.html) or [`<TouchableHighlight>`](https://facebook.github.io/react-native/docs/touchablehighlight.html)
 
-http://facebook.github.io/react-native/docs/getting-started.html
+https://facebook.github.io/react-native/releases/next/docs/style.html
 
 <!--
 And you can style them the way you want. We don't have classes and ids here though.
