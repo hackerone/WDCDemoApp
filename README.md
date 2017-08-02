@@ -145,6 +145,15 @@ EX - 7
 EX - 8
 - Populate `Trending` page with content from `getTrendingItems`
 
+
+## Publishing your app
+
+Using expo tool
+- https://docs.expo.io/versions/v19.0.0/guides/exp-cli.html
+
+Using `npm run eject` will convert it into a normal XCode / Android project which you can publish the app stores.
+
+
 ## References
 - https://github.com/vhpoet/react-native-styling-cheat-sheet/blob/master/README.md
 - http://jonibologna.com/flexbox-cheatsheet/
@@ -154,3 +163,4 @@ EX - 8
 - https://github.com/mobxjs/mobx
 - https://github.com/mobxjs/mobx-react
 - https://expo.io/
+- https://docs.expo.io/versions/v19.0.0/guides/exp-cli.html
